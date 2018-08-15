@@ -4,8 +4,8 @@
   "description": "Use next.js to render the front end of the react.",
   "main": "index.js",
   "scripts": {
-    "dev": "node server.js",
-    "next": "next",
+    "server": "node server.js",
+    "dev": "next",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
