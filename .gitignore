@@ -9,6 +9,7 @@
 # production
 /dist
 /.next
+/out
 
 # misc
 .DS_Store

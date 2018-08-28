@@ -4,11 +4,12 @@
   "description": "Use next.js to render the front end of the react.",
   "main": "index.js",
   "scripts": {
-    "build": "next build",
     "start": "next start",
     "server": "NODE_ENV=production node server.js",
     "dev": "next",
     "prod": "next start -p $PORT",
+    "build": "next build",
+    "export": "next export",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,5 +32,8 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-markdown": "^3.4.1"
+  },
+  "devDependencies": {
+    "react-highlight": "^0.12.0"
   }
 }
