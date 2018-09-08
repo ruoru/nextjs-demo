@@ -1,6 +1,6 @@
-import React from 'react'
-import { Input } from 'antd'
-import Layout from './components/MyLayout.js'
+import React from 'react';
+import { Input } from 'antd';
+import Layout from './components/MyLayout.js';
 
 export default class extends React.Component {
   static async getInitialProps({ req }) {
